@@ -1,6 +1,6 @@
 body{
     font-family: 'Ysabeau SC', sans-serif;
-    margin: 0%;
+    margin: 0%; 
 
 }
 
@@ -16,7 +16,7 @@ h2{
     color: white;
 }
 
-section{
+.flexible-container{
     display: flex;
     padding: 5%;
    
@@ -44,4 +44,29 @@ img{
     background-image: linear-gradient(blue,blueviolet);
     color: white;
     font-weight:700;
+}
+
+.specialize-head{
+    text-align: center; 
+    padding: 0 20%; 
+
+}
+
+.parent{
+    display: flex;
+    padding: 0 10%;
+}
+
+.child{
+    box-shadow: 10px 5px 40px ;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0 ;
+
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan) 0 100%;
+}
+
+footer{
+    text-align: center; 
 }
